@@ -1,8 +1,12 @@
 # Changelog
 
+## [0.1.13] - 2020-08-16
+### Removed
+  - 再次删除：`UserScript.js`
+
 ## [0.1.12] - 2020-08-16
 ### Removed
-  - 删除`UserScript.js`
+  - 删除：`UserScript.js`
 
 ## [0.1.11] - 2020-08-16
 ### Fixed
