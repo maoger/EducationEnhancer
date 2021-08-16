@@ -2,7 +2,7 @@
 // @name         EducationEnhancer
 // @icon         http://ce.esnai.net/favicon.ico
 // @homepage     https://github.com/maoger/EducationEnhancer
-// @version      0.1.10
+// @version      0.1.11
 // @description  继续教育助手
 // @author       Maoger
 // @match        http*://*.esnai.net/*
