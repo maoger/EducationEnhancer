@@ -1,10 +1,9 @@
-# EducationEnhancer - 继续教育助手
+# EducationEnhancer - 网课学习助手
 
 ![EducationEnhancer](./img/EducationEnhancer_01.png)
 
 ## 功能
 
-继续教育助手：  
 - 首页：自动展开课程列表
 - 学习：无人值守自动学习
 - 学习：一键下载课件并重命名
