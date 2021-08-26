@@ -1,6 +1,6 @@
 # EducationEnhancer - 网课学习助手
 
-![EducationEnhancer](./img/EducationEnhancer_01.png)
+![EducationEnhancer](./img/educationenhancer_01.png)
 
 ## 功能
 
