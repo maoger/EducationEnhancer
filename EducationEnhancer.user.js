@@ -2,7 +2,7 @@
 // @name         EducationEnhancer
 // @icon         http://ce.esnai.net/favicon.ico
 // @homepage     https://github.com/maoger/EducationEnhancer
-// @version      0.2.0
+// @version      0.2.1
 // @description  网课学习助手
 // @author       Maoger
 // @match        http*://*.esnai.net/*
@@ -229,10 +229,10 @@ function wangda_Exam(){
                     _obj.questionAttrCopys = [];
                     for (var j = 0; j < questions[i].questionAttrCopys.length; j++) {
                         if (questions[i].questionAttrCopys[j].type == "0") {
-                            if (questions[i].questionAttrCopys[j].name == "3") { _obj.questionAttrCopys.push("A:" + questions[i].questionAttrCopys[j].value); }
-                            if (questions[i].questionAttrCopys[j].name == "2") { _obj.questionAttrCopys.push("B:" + questions[i].questionAttrCopys[j].value); }
-                            if (questions[i].questionAttrCopys[j].name == "1") { _obj.questionAttrCopys.push("C:" + questions[i].questionAttrCopys[j].value); }
-                            if (questions[i].questionAttrCopys[j].name == "0") { _obj.questionAttrCopys.push("D:" + questions[i].questionAttrCopys[j].value); }
+                            if (questions[i].questionAttrCopys[j].name == "3") { _obj.questionAttrCopys.push("D:" + questions[i].questionAttrCopys[j].value); }
+                            if (questions[i].questionAttrCopys[j].name == "2") { _obj.questionAttrCopys.push("C:" + questions[i].questionAttrCopys[j].value); }
+                            if (questions[i].questionAttrCopys[j].name == "1") { _obj.questionAttrCopys.push("B:" + questions[i].questionAttrCopys[j].value); }
+                            if (questions[i].questionAttrCopys[j].name == "0") { _obj.questionAttrCopys.push("A:" + questions[i].questionAttrCopys[j].value); }
                         }
                         if (_obj.questionAttrCopys.length == 0 && questions[i].questionAttrCopys[j].value == "0") { _obj.questionAttrCopys.push("错误"); }
                         if (_obj.questionAttrCopys.length == 0 && questions[i].questionAttrCopys[j].value == "1") { _obj.questionAttrCopys.push("正确"); }
