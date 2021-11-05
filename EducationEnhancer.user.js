@@ -2,12 +2,11 @@
 // @name         EducationEnhancer
 // @icon         http://ce.esnai.net/favicon.ico
 // @homepage     https://github.com/maoger/EducationEnhancer
-// @version      0.2.1
+// @version      0.2.2
 // @description  网课学习助手
 // @author       Maoger
 // @match        http*://*.esnai.net/*
 // @match        http*://wangda.chinamobile.com/*
-// @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js
 // @grant        none
 // @run-at       document-idle
 // @updateURL    https://openuserjs.org/meta/maoger/EducationEnhancer.meta.js
@@ -30,6 +29,8 @@ if (location_href.indexOf('esnai.net') >= 0){
     }
 }
 if (location_href.indexOf('wangda.chinamobile.com') >= 0){
+    var script = document.createElement("script");
+    script.src = "https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js";
     if (location_href.indexOf('/study/') >= 0){
         setTimeout(function(){
             wangda_Learn();
