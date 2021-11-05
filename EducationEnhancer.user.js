@@ -2,7 +2,7 @@
 // @name         EducationEnhancer
 // @icon         http://ce.esnai.net/favicon.ico
 // @homepage     https://github.com/maoger/EducationEnhancer
-// @version      0.2.2
+// @version      0.2.3
 // @description  网课学习助手
 // @author       Maoger
 // @match        http*://*.esnai.net/*
@@ -95,7 +95,7 @@ function replaceAllNonStandardCharacters(data){
     return data;
 }
 function esnai_HomepageShowDetail(){
-    var show_more_button = document.querySelector('button.zk-w_button');
+    var show_more_button = document.querySelector('button.zk-w');
     if(show_more_button != null && show_more_button.innerText == '展开更多') {
         show_more_button.click();
     }
