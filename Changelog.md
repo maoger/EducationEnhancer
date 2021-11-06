@@ -1,8 +1,12 @@
 # Changelog
 
+## [0.2.4] - 2021-11-05
+### Fixed
+  - 修复 [移动网上人才发展中心](wangda.chinamobile.com) 的jquery插入
+
 ## [0.2.3] - 2021-11-05
 ### Fixed
-  - [上国会](ce.esnai.net) 修复首页自动“展开更多”
+  - 修复 [上国会](ce.esnai.net) 首页自动“展开更多”
 
 ## [0.2.2] - 2021-11-05
 ### Fixed

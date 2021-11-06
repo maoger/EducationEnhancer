@@ -31,6 +31,7 @@ if (location_href.indexOf('esnai.net') >= 0){
 if (location_href.indexOf('wangda.chinamobile.com') >= 0){
     var script = document.createElement("script");
     script.src = "https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js";
+    document.getElementsByTagName('head')[0].appendChild(script);
     if (location_href.indexOf('/study/') >= 0){
         setTimeout(function(){
             wangda_Learn();
