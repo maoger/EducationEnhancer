@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.5] - 2022-02-20
+### Added
+- 增加 `@downloadURL`
+
 ## [0.2.4] - 2021-11-05
 ### Fixed
   - 修复 [移动网上人才发展中心](wangda.chinamobile.com) 的jquery插入

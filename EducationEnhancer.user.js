@@ -10,7 +10,8 @@
 // @grant        none
 // @run-at       document-idle
 // @updateURL    https://openuserjs.org/meta/maoger/EducationEnhancer.meta.js
-// @copyright    2021-2021, maoger (https://openuserjs.org/users/maoger)
+// @downloadURL  https://openuserjs.org/install/maoger/EducationEnhancer.user.js
+// @copyright    2021-2022, maoger (https://openuserjs.org/users/maoger)
 // @license      MIT
 // ==/UserScript==
 
